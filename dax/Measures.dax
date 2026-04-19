@@ -1,0 +1,11 @@
+Total Sales = SUM(FactInternetSales[SalesAmount])
+Order Count = DISTINCTCOUNT(FactInternetSales[SalesOrderNumber])
+Average Order Value = DIVIDE([Total Sales], [Order Count])
+Total Profit = SUM(FactInternetSales[SalesAmount]) - SUM(FactInternetSales[TotalProductCost])
+Total Sales PY =
+CALCULATE(
+    [Total Sales],
+    DATEADD(DateTable[Date], -1, YEAR)
+)
+YoY % Change =
+DIVIDE([Total Sales] - [Total Sales PY], [Total Sales PY])
