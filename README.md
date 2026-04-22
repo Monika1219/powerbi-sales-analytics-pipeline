@@ -1,4 +1,4 @@
-# Project 1 — Sales Analytics Pipeline (SQL to Power BI)
+# Sales Analytics Pipeline (SQL to Power BI)
 
 ## 1. Overview
 This project demonstrates a complete end‑to‑end Business Intelligence development workflow using the AdventureWorksDW dataset. It covers SQL data preparation, dimensional modelling, DAX measure creation, report development, and Power BI Service deployment. The objective is to replicate real BI Developer responsibilities by building a clean data layer, modelling a star schema, developing analytical measures, and delivering an interactive report.
